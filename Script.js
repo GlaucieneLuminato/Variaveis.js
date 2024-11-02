@@ -1,68 +1,37 @@
-console.log("Boa tarde T2"); //exibindo msg no console;
+console.log("Bom dia T1");
 
-// Declarando variaveis var, let e const
-//variaveis são onde armazenamos os dados
+// comentario de apenas 1 linha
+/*
+comentário de varias linhas
+*/
+//  variaveis lugar onde iremos guardar informações
+// Declarando variaveis: var, let e const
 
-//criando nomes de variaveis:
-// não podemos usar numeros e caracteres exceto _ e $
-// nao usamos palavras com espaços
-// podemos usar o camelCase
-// Não fazer uso de palavras reservadas do JS
-// case sensitive  letras minusculas são # de maiusculas camelCase é # de camecase
+// variavel + nome da variavel + = + valor;
+//  criando nomes de variaveis:
+//  não podemos usar nomes com espaços
+//podemos usar camelCase - escrever duas ou mais palavras juntas, primeira palavra vai iniciar com a letra minuscula, seguida das outras palavras com a com primeira letra maiuscula
+//case sensitive # letras minusculas de letras maiusculas
 
-//variaveis podem ser recriadas, significando que podemos
-// atribuir um novo valor, sem erro.
-//variavel + nome da variavel + = + valor;
-var cor = "Verde";
-var cor = "Rosa";
-cor = "Branco";
-console.log(cor);
+// variavel + nome da variavel + = + valor;
+// preferida e podemos reatribuir um valor
+// string "texto"
 
-// let é variavel preferida dos programadores e tbm
-// conseguimos reatruir valor
-let alunoDaT2 = "Daniel";
-alunoDaT2 = "João Edu";
-alunoDaT2 = "Ester";
-console.log(alunoDaT2);
+// não podemos reescrever, mas podemos reatribuir valor:
+let nomeDoAluno = "Luan Vieira";
+nomeDoAluno = "Alexandra";
+nomeDoAluno = "Gislane";
+nomeDoAluno = "Stefany";
+console.log(nomeDoAluno);
 
-//Constante não pode ser alterada;
-const menorIdade = true;
-console.log(typeof menorIdade);
+// var vc consegue reescrever e tbm reatribuir
+var facilitador = "Kleber";
+var facilitador = "Débora";
+facilitador = "Fellipe";
+console.log(facilitador);
 
-//typeof verifica e retorna o tipo de dado;
 
-//tipos de dados:
-
-//string sao dados textuais
-let redeSocial = "Minha rede social é @carolinademy ";
-console.log(redeSocial);
-
-//boolean retorna verdadeiro (true) falso (false)
-// const menorIdade = true;
-// console.log(typeof menorIdade);
-
-//null - nulo
-let type = null;
-console.log(type);
-
-// undefined - indefinido
-// não foi definido um valor para a variavel;
-let saldoBancario;
-console.log(saldoBancario);
-
-//NaN o dado não é um numero
-let teste = "cem" * 2;
-console.log(teste); //NaN
-
-// Number - numerico
-let nota1 = 10;
-let nota2 = 8;
-console.log(nota1 + nota2);
-//podemos usar operadores aritmetico: +, -,*, / %
-
-//TemplateString `${}` dentro de crase ``
-let facilitador1 = "Grazy";
-let facilitador2 = "Kleber";
-console.log(
-  `Meus facilitadores maravilhosos são ${facilitador1} e ${facilitador2}`
-);
+const comida = "Batata";
+// constante não pode ser alterada:
+//const comida ="maçã"
+//comida = "cuscuz"
